@@ -20,7 +20,8 @@ const ExploreFood = () => {
                   <option value="Pizza">Pizza</option>
                   <option value="Wraps">Wraps</option>
                   <option value="Salad">Salad</option>
-                  <option value="Ice cream">Ice cream</option>
+                  <option value="Street Food">Street Food</option>
+                  <option value="Momos">Momos</option>
                 </select>
                 <input type='text' className='form-control fancy-input' placeholder='Search your favorite dish...'
                 onChange={(e) => setSearchText(e.target.value)} value={searchText}/>
